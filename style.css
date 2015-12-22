@@ -1,0 +1,345 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+html,body{
+	width:100%;
+	height:100%;
+}
+.affiche{
+	background-image:url("fond.jpg");
+	width:770px;
+	height:1080px;
+	color:white;
+	text-align:center;
+	font-family: 'Anton', sans-serif;
+	margin:0;
+	
+}
+
+.citation h2{
+	padding-top:20px;
+	letter-spacing: 5px;
+}
+
+.citation p {
+	text-align:right;
+	letter-spacing: 5px;
+	padding-right:33px;
+	font-size:13px;
+	margin-top:-20px;
+	color :#515b38;
+}
+
+.recompenses{
+	position:relative;
+	top:400px;
+	left:35px;
+	width:145px;
+	height:105px;
+	font-size:9px;
+	color:#515b38;
+	
+}
+
+.gauche{
+	padding-top:1px;
+	width:145px;
+	line-height: 2px;
+	height:105px;
+	
+	
+}
+
+.b-venise{
+	position:absolute;
+	top:0;
+	left:0;
+	background-image:url("palmeBefore.jpg");
+	height:47px;
+	width:28px;
+	margin-right:0;
+	z-index:1;
+}
+.a-venise{
+	position:absolute;
+	top:0;
+	right:0;
+	background-image:url("palmeAfter.jpg");
+	height:47px;
+	width:28px;
+	z-index:1;
+}
+
+.gauche .textV1 {
+	letter-spacing: 1px;
+	
+}
+.gauche .textV2 {
+	letter-spacing: 1.01px;
+	z-index:2;
+	
+}
+.gauche .textV3 {
+	letter-spacing: 7.5px;
+	z-index:2;
+	
+}
+
+.b-NY{
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-image:url("palmeBefore.jpg");
+	height:47px;
+	width:28px;
+	margin-right:0;
+	z-index:1;
+}
+.a-NY{
+	position:absolute;
+	bottom:0;
+	right:0;
+	background-image:url("palmeAfter.jpg");
+	height:47px;
+	width:28px;
+	z-index:1;
+}
+
+.gauche .textNY1 {
+	padding-top:27px;
+	letter-spacing: 1.5px;
+	
+}
+.gauche .textNY2 {
+	font-size:7.5px;
+	letter-spacing: 0px;
+	z-index:2;
+	
+}
+.gauche .textNY3 {
+	letter-spacing: 7.5px;
+	z-index:2;
+	
+}
+
+
+.droite{
+	position:absolute;
+	top:0px;
+	right:-500px;
+	padding-top:1px;
+	width:150px;
+	line-height: 2px;
+	height:105px;
+	
+	
+}
+
+.globe{
+	position:absolute;
+	top:0;
+	right:0;
+	background-image:url("globe.jpg");
+	height:68px;
+	width:28px;
+	z-index:1;
+}
+
+.sept{
+	padding:0;
+	margin-top:29px;
+	margin-left:-4px;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:84px;
+}
+
+.nomi{
+	margin-top:0px;
+	letter-spacing:4px;
+	margin-left:8px;
+}
+
+.golden{
+	color:white;
+	font-size:30px;
+}
+
+.gold1{
+	margin-top:15px;
+}
+.gold2{
+	margin-top:-7px;
+}
+.dont{
+	
+	letter-spacing:3px;
+	font-size:9px;
+	margin:0;
+	margin-left:-2px;
+	position:absolute;
+	top:66px;
+	left:61px;
+}
+.dont::before{
+	content:"____________________ ";
+	letter-spacing:0px;
+	position:absolute;
+	top:-3px;
+	left:-61px;
+	
+}
+.dont::after{
+	content:" ____________________";
+	letter-spacing:0px;
+	position:absolute;
+	top:-3px;
+	left:30px;
+}
+
+.Mfilm{
+		letter-spacing:5px;
+		font-size:15px;
+		margin-top:33px;
+	
+}
+
+.Macteur{
+		letter-spacing:5px;
+		font-size:11px;
+		margin-top:-4px;
+}
+
+.comedien{
+	margin-top:-4px;
+	font-size:6px;
+}
+
+.sousMenton{
+	position:relative;
+	top:477px;
+	left:25%;
+	height:273px;
+	width:365px;
+}
+
+.acteurs{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:389px;
+	text-align:justify;
+	letter-spacing:11.8px;
+	font-size:20px;
+	line-height:4px;
+}
+
+.acteurs p:nth-of-type(1) {
+		letter-spacing:18.5px;
+}
+.acteurs p:nth-of-type(2) {
+		letter-spacing:14px;
+}
+.acteurs p:nth-of-type(3) {
+		letter-spacing:20px;
+}
+.acteurs p:nth-of-type(5) {
+		letter-spacing:41px;
+		margin-right:-20px;
+}
+.acteurs p:nth-of-type(6) {
+		letter-spacing:29.2px;
+		margin-right:-20px;
+}
+.acteurs p:nth-of-type(7) {
+		letter-spacing:26px;
+		margin-right:-20px;
+}
+
+
+.realise{
+	position:absolute;
+	top:60%;
+	left:33%;
+	font-size:9px;
+	
+	
+}
+span{
+		font-size:11px;
+
+	
+}
+
+.titre{
+	position:absolute;
+	top:44%;
+	left:0%;
+	font-size:49px;
+	letter-spacing:33px;
+}
+.ou{
+	position:absolute;
+	top:79%;
+	left:48%;
+	font-size:9px;	
+}
+.sousTitre{
+	position:absolute;
+	top:80%;
+	left:.2%;
+	font-size:15.2px;	
+	
+	letter-spacing:3.5px;
+	
+}
+
+.photo{
+	position:absolute;
+	top:948px;
+	left:10px;
+	width:100%;
+	height:100px;
+	background-image:url('photos.jpg');
+	background-repeat:no-repeat;
+	background-size:675px 84px;
+	
+}
+
+.inter{
+	position:absolute;
+	top:1013px;
+	left:686px;
+	height:100px;
+	width:100px;
+	background-image:url('inter.jpg');
+	background-repeat:no-repeat;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
